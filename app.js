@@ -2,7 +2,7 @@ var App = React.createClass({displayName: 'App',
 
   render: function() {
     return (
-      React.createElement('div', null, 'Heyyyyyy')
+      React.createElement('img', { className: profilePic, src: 'profile.jpg' })
     );
   }
 });   
